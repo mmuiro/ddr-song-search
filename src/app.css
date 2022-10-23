@@ -1,0 +1,9 @@
+.resultsentry {
+
+}
+
+/* Keeps the title and subtitle per entry */
+.entryheader {
+    display: flex;
+    flex: space-between;
+}
