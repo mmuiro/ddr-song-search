@@ -6,4 +6,15 @@ interface Difficulty {
 	meter: number;
 }
 
-export type { Difficulty };
+interface Song {
+	title: string;
+	subtitle: string | undefined;
+	artist: string;
+	difficulties: Difficulty[];
+}
+
+interface PackData {
+	[pack: string]: Song[];
+}
+
+export type { Difficulty, Song, PackData };
